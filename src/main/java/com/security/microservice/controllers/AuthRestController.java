@@ -48,7 +48,7 @@ public class AuthRestController {
         }
     }
 
-    @GetMapping("/check-auth")
+    @GetMapping("/checkToken")
     public ResponseEntity<String> checkAuth() {
         return ResponseEntity.ok().body("Autenticado");
     }
